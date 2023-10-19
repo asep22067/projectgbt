@@ -1,0 +1,721 @@
+* {
+        padding: 0;
+        margin: 0;
+}
+
+body {
+        background-color: #c3c3c3;
+}
+
+.wadah {
+        height: 60px;
+        width: 100%;
+        background-color: #c3c3c3;
+}
+
+.wadah1 {
+        height: 50px;
+        width: 100%;
+        background-color: white;
+}
+
+.mode {
+        margin-top: 10px;
+        height: 30px;
+        width: 100px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 80px;
+}
+
+.teksfb {
+        color: dodgerblue;
+        font-size: 30px;
+}
+
+.tombol {
+        margin-top: 10px;
+        height: 20px;
+        width: 80px;
+        float: left;
+}
+
+.tombol1 {
+        margin-top: 10px;
+        height: 20px;
+        width: 100px;
+        float: left;
+}
+
+.mode1 {
+        border: 2px solid #e7e7e7;
+        background-color: #e7e7e7;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+.wadah2 {
+        height: 110px;
+        width: 100%;
+        background-color: white;
+}
+
+.facebook {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 120px;
+        float: left;
+}
+
+.cari {
+        margin-top: 5px;
+        margin-left: 10px;
+        border-radius: 100%;
+        height: 40px;
+        width: 40px;
+        float: left;
+        background-color: #e7e7e7;
+}
+
+.search {
+        margin-left: 5px;
+        margin-top: 5px;
+        height: 30px;
+        width: 30px;
+        float: left;
+        background-size: cover;
+        background-image: url('search.svg');
+}
+
+.line {
+        margin-left: 5px;
+        margin-top: 5px;
+        height: 30px;
+        width: 30px;
+        float: left;
+        background-size: cover;
+        background-image: url('line.svg');
+}
+
+.home {
+        margin-left: 18px;
+        margin-top: 17px;
+        margin-right: 18px;
+        height: 26px;
+        width: 26px;
+        float: left;
+        color: white;
+        background-size: cover;
+        background-image: url('home.svg');
+}
+
+.friends {
+        margin-right: 17px;
+        margin-left: 17px;
+        margin-top: 16px;
+        height: 29px;
+        width: 29px;
+        float: left;
+        color: white;
+        background-size: cover;
+        background-image: url('friends.svg');
+}
+
+.messenger {
+        margin: 17px;
+        height: 27px;
+        width: 27px;
+        float: left;
+        color: white;
+        background-size: cover;
+        background-image: url('messenger.svg');
+}
+
+.video {
+        margin: 18px;
+        height: 26px;
+        width: 26px;
+        float: left;
+        color: white;
+        background-size: cover;
+        background-image: url('video.svg');
+}
+
+.bell {
+        margin-left: 18px;
+        margin-top: 15px;
+        margin-right: 18px;
+        height: 30px;
+        width: 30px;
+        float: left;
+        color: white;
+        background-size: cover;
+        background-image: url('bell.svg');
+}
+
+.shop {
+        margin-left: 18px;
+        margin-top: 17px;
+        margin-right: 18px;
+        height: 30px;
+        width: 30px;
+        float: left;
+        color: white;
+        background-size: cover;
+        background-image: url('shop.svg');
+}
+
+.status {
+        margin-top: 2px;
+        height: 80px;
+        width: 100%;
+        background-color: white;
+}
+
+.fotoprofil {
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+        margin-top: 13px;
+        margin-right: 10px;
+        border-radius: 100%;
+        float: left;
+        background-size: cover;
+        background-image: url('1.jpg');
+}
+
+.tulis {
+        float: left;
+        margin-top: 20px;
+}
+
+textarea {
+        border-radius: 50px;
+        background-color: #e7e7e7;
+}
+
+.foto {
+        height: 30px;
+        width: 30px;
+        margin-top: 15px;
+        margin-left: 15px;
+        float: left;
+        background-size: cover;
+        background-image: url('foto.svg');
+}
+
+.teks {
+        height: 10px;
+        width: 30px;
+        margin-top: 5px;
+        margin-left: 16px;
+        float: left;
+        
+}
+
+.wadahstory {
+        padding-top: 5px;
+        margin-top: 2px;
+        height: 200px;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        background-color: white;
+        background-color: white;
+}
+
+.scroll {
+        width: 600px;
+}
+
+.namacerita {
+        margin-top: 130px;
+        margin-left: 10px;
+        height: 40px;
+        width: 50px;
+}
+
+span {
+        color: white;
+}
+
+.isi1 {
+        margin: 5px;
+        border-radius: 10px;
+        height: 180px;
+        width: 100px;
+        float: left;
+        background-size: cover;
+        background-image: url('6.webp');
+}
+
+.isi2 {
+        margin: 5px;
+        border-radius: 10px;
+        height: 180px;
+        width: 100px;
+        float: left;
+        background-size: cover;
+        background-image: url('2.webp');
+}
+
+.isi3 {
+        margin: 5px;
+        border-radius: 10px;
+        height: 180px;
+        width: 100px;
+        float: left;
+        background-size: cover;
+        background-image: url('3.webp');
+}
+
+.isi4 {
+        margin: 5px;
+        border-radius: 10px;
+        height: 180px;
+        width: 100px;
+        float: left;
+        background-size: cover;
+        background-image: url('4.webp');
+}
+
+.isi5 {
+        margin: 5px;
+        border-radius: 10px;
+        height: 180px;
+        width: 100px;
+        float: left;
+        background-size: cover;
+        background-image: url('5.webp');
+}
+
+/*POSTINGAN NO1*/
+.wadahpostingan {
+        margin-top: 2px;
+        height: 400px;
+        width: 100%;
+        background-color: white;
+}
+
+.ppstatus {
+        margin-left: 10px;
+        height: 60px;
+        width: 60px;
+        margin-top: 13px;
+        margin-right: 10px;
+        border-radius: 100%;
+        float: left;
+        background-image: url('pp3.jpg');
+}
+
+.namastatus {
+        float: left;
+        height: 45px;
+        width: 240px;
+        margin-top: 20px;
+}
+
+.titik {
+        margin-left: 10px;
+        float: left;
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+}
+
+b {
+        color: black;
+}
+
+small {
+        color: grey;
+}
+
+.katakata {
+        margin-left: 10px;
+        margin-top: 15px;
+        height: 25px;
+        width: 100%;
+        float: left;
+}
+
+.fotostatus {
+        height: 200px;
+        width: 100%;
+        float: left;
+        margin-top: 1px;
+        background-size: cover;
+        background-image: url('topik3.webp');
+        margin-bottom: 15px;
+}
+
+.wadah3 {
+        margin: 8px;
+        height: 40px;
+        width: 110px;
+        float: left;
+        border-radius: 50px;
+        background-color: #e7e7e7;
+}
+
+.like {
+        margin-left: 38px;
+        margin-top: 5px;
+        height: 30px;
+        width: 30px;
+        float: left;
+        background-size: cover;
+        background-image: url('like.svg');
+}
+
+.comment {
+        margin-left: 45px;
+        margin-top: 10px;
+        height: 20px;
+        width: 20px;
+        float: left;
+        background-size: cover;
+        background-image: url('comment.svg');
+}
+
+.share {
+        margin-left: 38px;
+        margin-top: 5px;
+        height: 30px;
+        width: 30px;
+        float: left;
+        background-size: cover;
+        background-image: url('share.svg');
+}
+
+/*POSTIBGAN NO 2*/
+.ppstatus2 {
+        margin-left: 10px;
+        height: 60px;
+        width: 60px;
+        margin-top: 13px;
+        margin-right: 10px;
+        border-radius: 100%;
+        float: left;
+        background-image: url('pp2.jpg');
+}
+
+.fotostatus2 {
+        height: 200px;
+        width: 100%;
+        float: left;
+        margin-top: 1px;
+        background-size: cover;
+        background-image: url('topik2.webp');
+        margin-bottom: 15px;
+}
+
+/*POSTIBGAN NO 3*/
+.ppstatus3 {
+        margin-left: 10px;
+        height: 60px;
+        width: 60px;
+        margin-top: 13px;
+        margin-right: 10px;
+        border-radius: 100%;
+        float: left;
+        background-image: url('pp1.jpg');
+}
+
+.fotostatus3 {
+        height: 200px;
+        width: 100%;
+        float: left;
+        margin-top: 1px;
+        background-size: cover;
+        background-image: url('topik1.webp');
+        margin-bottom: 15px;
+}
+
+.wadahfriends {
+        margin-top: 2px;
+        height: 760px;
+        width: 100%;
+        background-color: white;
+}
+
+.wadahtulisan {
+        margin-left: 10px;
+        margin-right: 190px;
+        margin-top: 5px;
+        float: left;
+        height: 30px;
+        width: 120px;
+}
+
+.tulisan {
+        color: black;
+        font-size: 30px;
+}
+
+.wadah6 {
+        margin-left: 10px;
+        margin-top: 5px;
+        float: left;
+        height: 50px;
+        width: 260px;
+}
+
+.a {
+        margin: 5px;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+        padding: 5px;
+}
+
+.wadah7 {
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 100px;
+        float: left;
+        height: 40px;
+        width: 360px;
+}
+
+.wadahppdantombol {
+        height: 120px;
+        width: 380px;
+        float: left;
+        background-color: white;
+        
+}
+
+.ppt {
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-image: url('fuckyou.jpeg');
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        float: left;
+        border-radius: 100%;
+}
+
+.namat {
+        height: 25px;
+        width: 200px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 20px;
+}
+
+.tombolkonfir {
+        height: 50px;
+        width: 240px;
+        margin-left: 6px;
+        margin-top: 10px;
+        float: left;
+}
+
+.b {
+        margin: 4px;
+        background-color: dodgerblue;
+        border: 2px solid dodgerblue;
+        color: white;
+        border-radius: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+}
+
+.c {
+        margin: 4px;
+        background-color: #e7e7e7;
+        border: 2px solid #e7e7e7;
+        color: black;
+        border-radius: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+}
+
+.wadahmessages {
+        height: 50px;
+        width: 100%;
+        margin-top: 2px;
+        background-color: white;
+}
+
+.teksmessages {
+        height: 30px;
+        width: 310px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 8px;
+        
+}
+
+.initeksmesagges {
+        font-size: 25px;
+}
+
+.wadahchat {
+        height: 120px;
+        width: 100%;
+        margin-top: 1px;
+        background-color: white;
+        overflow-x: auto;
+        white-space: nowrap;
+}
+
+.wadahppchat {
+        height: 120px;
+        width: 100px;
+        float: left;
+}
+
+.ppchat {
+        height: 70px;
+        width: 70px;
+        float: left;
+        margin-top: 8px;
+        margin-left: 20px;
+        border-radius: 100%;
+        background-size: cover;
+        background-image: url('pp1.jpg');
+}
+
+.namachat {
+        float: left;
+        height: 20px;
+        width: 100px;
+        margin-left: -8px;
+        margin-top: 70px;
+        background-color: white;
+}
+
+small {
+        color: #323232;
+}
+
+.chatterbaru {
+        margin-top: 2px;
+        height: 460px;
+        width: 100%;
+        background-color: white;
+}
+
+.isichatterbaru {
+        float: left;
+        height: 60px;
+        width: 160px;
+        margin-top: 50%;
+        margin-left: 32%;
+}
+
+.inisichatterbaru {
+        font-size: 20px;
+        color: dimgrey;
+}
+
+/*Videos*/
+.teksvideo {
+        height: 30px;
+        width: 310px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 8px;
+        
+}
+
+.initeksvideo {
+        font-size: 30px;
+}
+
+.isivideo {
+        margin-top: 2px;
+        height: 500px;
+        width: 100%;
+        background-color: white;
+}
+
+.inisivideo {
+        float: left;
+        height: 60px;
+        width: 160px;
+        margin-top: 50%;
+        margin-left: 32%;
+}
+
+.inisivideo {
+        font-size: 20px;
+        color: dimgrey;
+}
+
+/*belllllllllllllllllllllll*/
+.teksbell {
+        height: 30px;
+        width: 310px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 8px;
+        
+}
+
+.initeksbell {
+        font-size: 30px;
+}
+
+.isibell {
+        margin-top: 2px;
+        height: 500px;
+        width: 100%;
+        background-color: white;
+}
+
+.inisibell {
+        float: left;
+        height: 60px;
+        width: 160px;
+        margin-top: 50%;
+        margin-left: 32%;
+}
+
+.inisibell {
+        font-size: 20px;
+        color: dimgrey;
+}
+
+/*Shooooooppppppppp Marketpalceeeeeeeeeeeeeeeee*/
+.teksshop {
+        height: 30px;
+        width: 310px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 8px;
+        
+}
+
+.initeksshop {
+        font-size: 30px;
+}
+
+.isishop {
+        margin-top: 2px;
+        height: 500px;
+        width: 100%;
+        background-color: white;
+}
+
+.inisishop {
+        float: left;
+        height: 60px;
+        width: 160px;
+        margin-top: 50%;
+        margin-left: 32%;
+}
+
+.inisishop {
+        font-size: 20px;
+        color: dimgrey;
+}

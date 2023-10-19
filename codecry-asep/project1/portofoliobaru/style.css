@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/* AWAL SELECTION*/
+.isitentangsaya1::selection,
+.isimariberteman::selection {
+  color: white;
+  background-color: limegreen;
+}
+
+.nama::selection,
+.tentangsaya::selection {
+  color: limegreen;
+  background-color: black;
+}
+
+/* AKHIR SELECTION*/
+
+
+.wadahnavbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  background-color: #f1f1f1;
+  position: fixed;
+}
+
+.wadahh {
+  height: 60px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.namasingkat {
+  color: limegreen;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-top: 5px;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Sofia Sans', sans-serif;
+  font-weight: bold;
+}
+
+ul li:hover {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px -6px 0px cadetblue inset;
+}
+
+/* AKHIR NAVBAR */
+
+/* AWAL IDENTITAS */
+.wadah1 {
+  float: left;
+  height: 400px;
+  margin-left: 5%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.teks1 {
+  margin-top: 20%;
+  color: green;
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.fullname {
+  font-weight: bold;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  width: 300px;
+  background-image: linear-gradient(to right, green, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.teks2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #343434;
+  margin-bottom: 5px;
+  margin-left: 5%;
+}
+
+.teks3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  margin-bottom: 10%;
+  font-size: 12px;
+  margin-left: 5%;
+}
+
+.btn {
+  height: 40px;
+  width: 140px;
+  color: white;
+  background-color: rgb(0, 247, 111);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.1s ease-in-out;
+  margin-left: 5%;
+}
+
+.btn:active {
+  height: 35px;
+  width: 130px;
+  color: darkgrey;
+  background-color: rgb(115, 255, 225);
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 6%;
+  margin-top: 2px;
+}
+
+/* AWAL WADAH 2 */
+.wadah2 {
+  height: auto;
+  width: 50%;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+}
+
+.pp {
+  height: 354px;
+  width: 354px;
+}
+
+/* AWAL WADAH 3 */
+.wadah3 {
+  float: left;
+  height: 160px;
+  margin-left: 5%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tentangsaya,
+.teksskill {
+  margin-top: 20%;
+  color: limegreen;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+.isitentangsaya {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#teks1 {
+  color: grey;
+  font-size: 15px;
+  margin-right: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#teks2 {
+  color: grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  text-align: center;
+}
+
+
+/* AWAL WADAH 4 */
+.wadah4 {
+  height: 160px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 38px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mariberteman {
+  margin-top: 20%;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.wadahsosmed {
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.icon {
+  margin-top: 2px;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  margin-right: 10px;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px #00000081;
+  
+}
+
+.icon2 {
+  margin-top: 2px;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  margin-right: 10px;
+  box-shadow: 0px 0px 5px #00000081;
+}
+
+/* AWAL STYLE SKILL */
+.wadahskill {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.wadahiconskill {
+  margin-bottom: 20px;
+}
+
+.icon3 {
+  height: 80px;
+  width: 80px;
+  margin-top: 10%;
+  
+}
+
+/* AKHIR STYLE SKILL */
+
+/* AWAL STYLE PORTFOLIO */
+.wadahportfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wadahproject {
+  width: 100%;
+  height: 360px;
+}
+
+.project {
+  float: left;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+
+
+.potoproject {
+  height: 240px;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: all 0.2s;
+}
+
+.potoproject:hover {
+  height: 250px;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 103%;
+  margin-bottom: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#teks3 {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 30px;
+  font-family: Arial;
+}
+
+/* AKHIR STYLE PORTFOLIO */
+
+/* AWAL STYLE CONTAC */
+#contac {
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.bgcontac {
+  width: 80%;
+  height: auto;
+  background-image: linear-gradient(to right, green, limegreen);
+  box-shadow: 2px 2px 5px grey;
+  padding: 30px 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.wadahemail,
+.wadahnama,
+.wadahbtn {
+  width: 80%;
+  height: 80px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.wadahpesan {
+  width: 80%;
+  height: 140px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-left: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#email,
+#nama {
+  height: 40px;
+  width: 96%;
+  padding: 0 2%;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#pesan {
+  width: 96%;
+  padding: 0 2%;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#email,
+#nama,
+#pesan:focus {
+  outline: none;
+}
+
+#btn2 {
+  margin-top: 10px;
+  height: 40px;
+  width: 100px;
+  padding: 2px 5px;
+  background-color: dodgerblue;
+  color: white;
+  font-family: arial;
+  border: none;
+  border-radius: 10px;
+  margin-left: 80%;
+  transition: all 0.1s ease-in-out;
+  font-size: 18px;
+}
+
+#btn2:active {
+  height: 34px;
+  width: 90px;
+  padding: 2px 5px;
+  background-color: #8fc8ff;
+  color: white;
+  font-family: arial;
+  border: none;
+  border-radius: 10px;
+  margin-left: 81%;
+  font-size: 16px;
+}
+
+/* AWAL STYLE CONTAC */
+@media(max-width:768px) {
+  .nama {
+    margin-left: 3%;
+    margin-right: 10%;
+  }
+  
+  .container {
+    display: column;
+  }
+  
+  .wadah1 {
+    margin-left: 5%;
+    width: 95%;
+    height: 380px;
+  }
+  
+  .wadah2 {
+    width: 100%;
+    height: 420px;
+    margin-bottom: 5%;
+  }
+  
+  
+  .wadah3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 160px;
+  }
+  
+  .wadah4 {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: auto;
+    margin-bottom: 5%;
+  }
+  
+  .pp {
+    height: 400px;
+    width: 400px;
+  }
+  
+  ul li a {
+    font-size: 15px;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  
+  /* AWAL PORTFOLIO */
+  .project {
+    margin-top: 10px;
+    float: left;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .potoproject {
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .potoproject:hover {
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  /* AKHIR PORTFOLIO */
+  
+  /* AWAL CONTAC */
+  .bgcontac {
+    width: 90%;
+  }
+  
+  #btn2 {
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    padding: 2px 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-family: arial;
+    border: none;
+    border-radius: 10px;
+    margin-left: 61%;
+    transition: all 0.1s ease-in-out;
+    font-size: 18px;
+  }
+  
+  #btn2:active {
+    height: 34px;
+    width: 90px;
+    padding: 2px 5px;
+    background-color: #8fc8ff;
+    color: white;
+    font-family: arial;
+    border: none;
+    border-radius: 10px;
+    margin-left: 63%;
+    font-size: 16px;
+  }
+  
+  /* AKHIR CONTAC */
+}

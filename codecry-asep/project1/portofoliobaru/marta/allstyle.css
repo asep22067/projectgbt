@@ -1,0 +1,330 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, blue, dodgerblue);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* AWAL NAVBAR */
+.boxnav {
+  height: 70px;
+  width: 100%;
+  background-color: #0000005f;
+  box-shadow: 0px 2px 5px black;
+  justify-content: start;
+  display: flex;
+}
+
+
+.boxback {
+  background-color: whitesmoke;
+  color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.boxback:active {
+  background-color: dimgrey;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.back {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+/* AKHIR NAVBAR */
+
+.boxtopup {
+  height: 120px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.boxtopup h1 {
+  margin-top: 20px;
+  color: white;
+}
+
+
+
+/* AWAL BAGIAN NOMER */
+.boxno {
+  height: 180px;
+  width: 90%;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #000000a8;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.boxnoo {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: dodgerblue;
+  top: 170px;
+  left: 8%;
+  position: absolute;
+  border: 8px solid white;
+  justify-content: center;
+  display: flex;
+}
+
+.no1 {
+  color: white;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+
+#nohp {
+  margin-top: 10px;
+  width: 70%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  background-color: lightgrey;
+  box-shadow: 2px 2px 4px #00000086;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+#nohp::placeholder {
+  color: grey;
+}
+
+p {
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: grey;
+}
+
+/* AKHIR BAGIAN NOMER */
+
+
+
+/* AWAL BAGIAN STYLE PAKET DATA */
+.boxno2 {
+  margin-top: 50px;
+  height: 640px;
+  width: 90%;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #000000a8;
+}
+
+.boxno2 h2 {
+  margin-bottom: 50px;
+}
+
+.boxnoo2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: dodgerblue;
+  top: 400px;
+  left: 8%;
+  position: absolute;
+  border: 8px solid white;
+  justify-content: center;
+  display: flex;
+}
+
+.wadahkuota {
+  height: 120px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.wadahtekskuota {
+  height: 100px;
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: floralwhite;
+  box-shadow: 2px 2px 8px #00000051;
+  border: 2px solid floralwhite;
+  justify-content: center;
+  display: grid;
+  transition: all 0.2s ease-in-out;
+}
+
+.clicked {
+  /*STYLE UNTUK JAVA SCRIPT*/
+  height: 100px;
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #5a86a863;
+  border: 2px solid skyblue;
+  box-shadow: 2px 2px 8px #00000051;
+}
+
+.wadahtekskuota b {
+  margin-top: 15px;
+  font-size: 25px;
+  height: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.day {
+  text-align: center;
+  width: 100%;
+  color: grey;
+}
+
+.rp {
+  text-align: center;
+  width: 100%;
+  color: orange;
+  font-weight: bold;
+}
+
+/* AKHUR BAGIAN STYLE PAKET DATA */
+
+
+
+/* AWAL STYLE BAGIAN METODE PEMBAYARAN */
+.boxno3 {
+  margin-top: 50px;
+  height: 260px;
+  width: 90%;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #000000a8;
+}
+
+.boxno3 h2 {
+  margin-bottom: 20px;
+}
+
+.boxnoo3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: dodgerblue;
+  top: 1090px;
+  left: 8%;
+  position: absolute;
+  border: 8px solid white;
+  justify-content: center;
+  display: flex;
+}
+
+.metode {
+  height: 60px;
+  width: 90%;
+  background-color: #80808063;
+  border: 2px solid #80808063;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #00000051;
+  transition: all 0.2s ease-in-out;
+}
+
+.clicked2 {
+  /*STYLE UNTUK JAVA SCRIPT*/
+  height: 60px;
+  width: 90%;
+  background-color: #5a86a863;
+  border: 2px solid skyblue;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #00000051;
+  
+}
+
+.metode span {
+  font-size: 20px;
+  margin-top: 17px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#via {
+  height: 60px;
+  width: 120px;
+  margin-right: 10px;
+}
+
+/* AKHIR BAGIAN STYLE METODE PEMBAYARAN */
+
+
+
+/* AWAL BUTTON BELI SEKARANG  */
+.wadahbtn {
+  height: 150px;
+  width: 100%;
+  justify-content: end;
+  display: grid;
+}
+
+#btn {
+  margin-top: 10px;
+  height: 40px;
+  width: 100;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  border: none;
+  box-shadow: 2px 2px 5px #00000051;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+/* AKHIR BUTTON BELI SEKARANG */
